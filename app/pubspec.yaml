@@ -25,6 +25,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_displaymode: 0.7.0
+  flutter_foreground_task: ^9.2.0
   flutter_localizations:
     sdk: flutter
   freezed_annotation: 3.1.0
