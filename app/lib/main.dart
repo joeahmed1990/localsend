@@ -52,7 +52,7 @@ Future<void> main(List<String> args) async {
     BackgroundService.start();
   });
 }
-  
+
 class LocalSendApp extends StatelessWidget {
   const LocalSendApp();
 
