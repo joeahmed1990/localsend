@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:localsend_app/background_service.dart';
 import 'package:localsend_app/config/init.dart';
 import 'package:localsend_app/config/init_error.dart';
 import 'package:localsend_app/config/theme.dart';
@@ -44,8 +45,13 @@ Future<void> main(List<String> args) async {
       ),
     ),
   );
-}
 
+  // Android: keep the app alive in the background
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    // ignore: discarded_futures
+    BackgroundService.start();
+  });
+}
 class LocalSendApp extends StatelessWidget {
   const LocalSendApp();
 
