@@ -33,8 +33,8 @@ class BackgroundService {
     FlutterForegroundTask.init(
       androidNotificationOptions: AndroidNotificationOptions(
         channelId: 'localsend_background',
-        channelName: 'LocalSend background service',
-        channelDescription: 'Keeps LocalSend running so you can receive files.',
+        channelName: 'YouSend background service',
+        channelDescription: 'Keeps YouSend running so you can receive files.',
         channelImportance: NotificationChannelImportance.LOW,
         priority: NotificationPriority.LOW,
       ),
@@ -67,7 +67,7 @@ class BackgroundService {
 
     await FlutterForegroundTask.startService(
       serviceId: 7331,
-      notificationTitle: 'LocalSend',
+      notificationTitle: 'YouSend',
       notificationText: 'Running in the background and ready to receive files',
       callback: backgroundServiceCallback,
     );

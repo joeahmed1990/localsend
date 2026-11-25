@@ -40,7 +40,7 @@ class TranslationsGu extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'YouSend';
   @override
   late final _Translations$general$gu general = _Translations$general$gu._(_root);
   @override
@@ -291,7 +291,7 @@ class _Translations$networkInterfacesPage$gu extends Translations$networkInterfa
   String get title => 'નેટવર્ક ઇન્ટરફેસ';
   @override
   String get info =>
-      'ડિફૌલ્ટ રૂપે, LocalSend બધા ઉપલબ્ધ નેટવર્ક ઇન્ટરફેસ વાપરશે. તમે અહી નજોયતા નેટવર્ક ને કાઢી શકો છો. બદલાવ જોયા માટે તમને સર્વર ને ફરી ચાલુ કરવું પડસે.';
+      'ડિફૌલ્ટ રૂપે, YouSend બધા ઉપલબ્ધ નેટવર્ક ઇન્ટરફેસ વાપરશે. તમે અહી નજોયતા નેટવર્ક ને કાઢી શકો છો. બદલાવ જોયા માટે તમને સર્વર ને ફરી ચાલુ કરવું પડસે.';
   @override
   String get preview => 'પ્રીવ્યૂ';
   @override
@@ -746,7 +746,7 @@ class _Translations$tray$gu extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'LocalSend બંધ કરો';
+  String get close => 'YouSend બંધ કરો';
   @override
   String get closeWindows => 'બહાર નિકડો';
 }
@@ -960,7 +960,7 @@ class _Translations$settingsTab$general$gu extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'સ્વયંચાલિત શરૂઆત: છુપાવેલી સ્થિતિમાં શરૂ કરો';
   @override
-  String get showInContextMenu => 'કૉટેક્સ્ટ મેન્યુ માં LocalSend દેખાડો';
+  String get showInContextMenu => 'કૉટેક્સ્ટ મેન્યુ માં YouSend દેખાડો';
   @override
   String get softwareRendering => 'સોફ્ટવેર રેન્ડરિંગ';
   @override
@@ -1593,7 +1593,7 @@ class _Translations$dialogs$sendModeHelp$gu extends Translations$dialogs$sendMod
   @override
   String get multiple => 'ફાઈલોને ઘણા પ્રાપ્તકર્તાઓને મોકલવામાં આવે છે. પસંદગી સાફ કરવામાં આવશે નહીં.';
   @override
-  String get link => 'જે પ્રાપ્તકર્તાઓ પાસે LocalSend સ્થાપિત નથી તેઓ તેમના બ્રાઉઝરમાં લિંક ખોલીને પસંદ કરેલી ફાઈલો ડાઉનલોડ કરી શકે છે.';
+  String get link => 'જે પ્રાપ્તકર્તાઓ પાસે YouSend સ્થાપિત નથી તેઓ તેમના બ્રાઉઝરમાં લિંક ખોલીને પસંદ કરેલી ફાઈલો ડાઉનલોડ કરી શકે છે.';
 }
 
 // Path: dialogs.zoom

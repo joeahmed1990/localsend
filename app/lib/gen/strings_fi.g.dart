@@ -40,7 +40,7 @@ class TranslationsFi extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'YouSend';
   @override
   late final _Translations$general$fi general = _Translations$general$fi._(_root);
   @override
@@ -291,7 +291,7 @@ class _Translations$networkInterfacesPage$fi extends Translations$networkInterfa
   String get title => 'Verkkokäyttöliittymät';
   @override
   String get info =>
-      'Oletuksena LocalSend käyttää kaikkia saatavilla olevia verkkoliitäntöjä. Voit sulkea pois verkkoliitännät, joita et halua. Sinun tulee uudelleenkäynnistää LocalSend ottaaksesi muutokset käyttöön.';
+      'Oletuksena YouSend käyttää kaikkia saatavilla olevia verkkoliitäntöjä. Voit sulkea pois verkkoliitännät, joita et halua. Sinun tulee uudelleenkäynnistää YouSend ottaaksesi muutokset käyttöön.';
   @override
   String get preview => 'Esikatselu';
   @override
@@ -418,7 +418,7 @@ class _Translations$receiveOptionsPage$fi extends Translations$receiveOptionsPag
   @override
   String get destination => 'Vastaanottoasetukset';
   @override
-  String get appDirectory => '(LocalSend-kansio)';
+  String get appDirectory => '(YouSend-kansio)';
   @override
   String get saveToGallery => 'Tallenna galleriaan';
   @override
@@ -497,7 +497,7 @@ class _Translations$webSharePage$fi extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN-koodi on "${pin}"';
   @override
-  String get encryptionHint => 'LocalSend käyttää itse allekirjoitettua sertifikaattia. Sinun on hyväksyttävä se selaimessasi.';
+  String get encryptionHint => 'YouSend käyttää itse allekirjoitettua sertifikaattia. Sinun on hyväksyttävä se selaimessasi.';
   @override
   String pendingRequests({required Object n}) => 'Odottavat pyynnöt: ${n}';
 }
@@ -521,11 +521,11 @@ class _Translations$aboutPage$fi extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'Tietoja LocalSendista';
+  String get title => 'Tietoja YouSendista';
   @override
   List<String> get description => [
-    'LocalSend on ilmainen, avoimen lähdekoodin sovellus, jonka avulla voit turvallisesti jakaa tiedostoja ja lähettää viestejä läheisten laitteiden kanssa paikallisessa verkossasi ilman internet-yhteyttä.',
-    'LocalSend on saatavilla Androidille, iOS:lle, Linuxille, macOS:lle ja Windowsille. Kaikki latausvaihtoehdot löytyvät virallisilta kotisivuilta.',
+    'YouSend on ilmainen, avoimen lähdekoodin sovellus, jonka avulla voit turvallisesti jakaa tiedostoja ja lähettää viestejä läheisten laitteiden kanssa paikallisessa verkossasi ilman internet-yhteyttä.',
+    'YouSend on saatavilla Androidille, iOS:lle, Linuxille, macOS:lle ja Windowsille. Kaikki latausvaihtoehdot löytyvät virallisilta kotisivuilta.',
   ];
   @override
   String get author => 'Tekijä';
@@ -548,7 +548,7 @@ class _Translations$donationPage$fi extends Translations$donationPage$en {
   String get title => 'Lahjoita';
   @override
   String get info =>
-      'LocalSend on ilmainen, avoimen lähdekoodin sovellus ilman mainoksia. Voit tukea projektia lahjoituksella, jos pidät sovelluksesta.';
+      'YouSend on ilmainen, avoimen lähdekoodin sovellus ilman mainoksia. Voit tukea projektia lahjoituksella, jos pidät sovelluksesta.';
   @override
   String donate({required Object amount}) => 'Lahjoita ${amount}';
   @override
@@ -754,7 +754,7 @@ class _Translations$tray$fi extends Translations$tray$en {
   @override
   String get open => 'Avaa';
   @override
-  String get close => 'Lopeta LocalSend';
+  String get close => 'Lopeta YouSend';
   @override
   String get closeWindows => 'Poistu';
 }
@@ -969,7 +969,7 @@ class _Translations$settingsTab$general$fi extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Automaattinen käynnistys: Käynnistä piiilotettuna';
   @override
-  String get showInContextMenu => 'Näytä LocalSend kontekstivalikossa';
+  String get showInContextMenu => 'Näytä YouSend kontekstivalikossa';
   @override
   String get softwareRendering => 'Ohjelmistorenderöinti';
   @override
@@ -1033,7 +1033,7 @@ class _Translations$settingsTab$network$fi extends Translations$settingsTab$netw
   @override
   String get title => 'Verkko';
   @override
-  String get needRestart => 'Käynnistä LocalSend uudelleen saadaksesi muutokset käyttöön!';
+  String get needRestart => 'Käynnistä YouSend uudelleen saadaksesi muutokset käyttöön!';
   @override
   String get server => 'Palvelin';
   @override
@@ -1076,7 +1076,7 @@ class _Translations$settingsTab$other$fi extends Translations$settingsTab$other$
   @override
   String get title => 'Muut';
   @override
-  String get support => 'Tue LocalSendia';
+  String get support => 'Tue YouSendia';
   @override
   String get donate => 'Lahjoita';
   @override
@@ -1462,7 +1462,7 @@ class _Translations$dialogs$localNetworkUnauthorized$fi extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description => 'LocalSend ei löydä muita laitteita ilman lupaa skannata paikallisverkkoa. Anna tämä lupa asetuksissa.';
+  String get description => 'YouSend ei löydä muita laitteita ilman lupaa skannata paikallisverkkoa. Anna tämä lupa asetuksissa.';
   @override
   String get gotoSettings => 'Asetukset';
 }
@@ -1604,7 +1604,7 @@ class _Translations$dialogs$sendModeHelp$fi extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Lähettää tiedostoja useille vastaanottajille. Valinta ei tyhjene.';
   @override
-  String get link => 'Vastaanottajat, joilla ei ole LocalSendia asennettuna, voivat ladata valitut tiedostot avaamalla linkin selaimessaan.';
+  String get link => 'Vastaanottajat, joilla ei ole YouSendia asennettuna, voivat ladata valitut tiedostot avaamalla linkin selaimessaan.';
 }
 
 // Path: dialogs.zoom

@@ -40,7 +40,7 @@ class TranslationsTr extends Translations with BaseTranslations<AppLocale, Trans
 
   // Translations
   @override
-  String get appName => 'LocalSend';
+  String get appName => 'YouSend';
   @override
   late final _Translations$general$tr general = _Translations$general$tr._(_root);
   @override
@@ -291,7 +291,7 @@ class _Translations$networkInterfacesPage$tr extends Translations$networkInterfa
   String get title => 'Ağ Arayüzleri';
   @override
   String get info =>
-      'LocalSend varsayılan olarak kullanılabilir tüm ağ arayüzlerini kullanır. İstemediğiniz ağları buradan hariç tutabilirsiniz. Değişikliklerin geçerli olması için sunucuyu yeniden başlatmanız gerekir.';
+      'YouSend varsayılan olarak kullanılabilir tüm ağ arayüzlerini kullanır. İstemediğiniz ağları buradan hariç tutabilirsiniz. Değişikliklerin geçerli olması için sunucuyu yeniden başlatmanız gerekir.';
   @override
   String get preview => 'Önizleme';
   @override
@@ -418,7 +418,7 @@ class _Translations$receiveOptionsPage$tr extends Translations$receiveOptionsPag
   @override
   String get destination => _root.settingsTab.receive.destination;
   @override
-  String get appDirectory => '(LocalSend klasörü)';
+  String get appDirectory => '(YouSend klasörü)';
   @override
   String get saveToGallery => _root.settingsTab.receive.saveToGallery;
   @override
@@ -497,7 +497,7 @@ class _Translations$webSharePage$tr extends Translations$webSharePage$en {
   @override
   String pinHint({required Object pin}) => 'PIN kodu: "${pin}"';
   @override
-  String get encryptionHint => 'LocalSend kendinden imzalı (self-signed) bir sertifika kullanır. Tarayıcınızda bu sertifikayı onaylamanız gerekir.';
+  String get encryptionHint => 'YouSend kendinden imzalı (self-signed) bir sertifika kullanır. Tarayıcınızda bu sertifikayı onaylamanız gerekir.';
   @override
   String pendingRequests({required Object n}) => 'Bekleyen istekler: ${n}';
 }
@@ -521,10 +521,10 @@ class _Translations$aboutPage$tr extends Translations$aboutPage$en {
 
   // Translations
   @override
-  String get title => 'LocalSend Hakkında';
+  String get title => 'YouSend Hakkında';
   @override
   List<String> get description => [
-    'LocalSend; internet bağlantısına ihtiyaç duymadan, yerel ağınız üzerinden yakındaki cihazlarla güvenli bir şekilde dosya ve mesaj paylaşmanızı sağlayan ücretsiz ve açık kaynaklı bir uygulamadır.',
+    'YouSend; internet bağlantısına ihtiyaç duymadan, yerel ağınız üzerinden yakındaki cihazlarla güvenli bir şekilde dosya ve mesaj paylaşmanızı sağlayan ücretsiz ve açık kaynaklı bir uygulamadır.',
     'Bu uygulama Android, iOS, macOS, Windows ve Linux platformlarında kullanılabilir. Tüm indirme seçeneklerini resmi web sitesinde bulabilirsiniz.',
   ];
   @override
@@ -548,7 +548,7 @@ class _Translations$donationPage$tr extends Translations$donationPage$en {
   String get title => 'Bağış Yap';
   @override
   String get info =>
-      'LocalSend ücretsiz, açık kaynaklı ve reklamsız bir uygulamadır. Uygulamayı beğendiyseniz geliştirme sürecine bağış yaparak destek olabilirsiniz.';
+      'YouSend ücretsiz, açık kaynaklı ve reklamsız bir uygulamadır. Uygulamayı beğendiyseniz geliştirme sürecine bağış yaparak destek olabilirsiniz.';
   @override
   String donate({required Object amount}) => '${amount} Bağış Yap';
   @override
@@ -747,7 +747,7 @@ class _Translations$tray$tr extends Translations$tray$en {
   @override
   String get open => _root.general.open;
   @override
-  String get close => 'LocalSend\'den Çık';
+  String get close => 'YouSend\'den Çık';
   @override
   String get closeWindows => 'Çıkış';
 }
@@ -962,7 +962,7 @@ class _Translations$settingsTab$general$tr extends Translations$settingsTab$gene
   @override
   String get launchMinimized => 'Otomatik başlatma: Gizli başlat';
   @override
-  String get showInContextMenu => 'Sağ tık menüsünde LocalSend\'i göster';
+  String get showInContextMenu => 'Sağ tık menüsünde YouSend\'i göster';
   @override
   String get softwareRendering => 'Yazılımsal işleme';
   @override
@@ -1069,7 +1069,7 @@ class _Translations$settingsTab$other$tr extends Translations$settingsTab$other$
   @override
   String get title => 'Diğer';
   @override
-  String get support => 'LocalSend\'i Destekle';
+  String get support => 'YouSend\'i Destekle';
   @override
   String get donate => 'Bağış Yap';
   @override
@@ -1455,7 +1455,7 @@ class _Translations$dialogs$localNetworkUnauthorized$tr extends Translations$dia
   @override
   String get title => _root.dialogs.noPermission.title;
   @override
-  String get description => 'LocalSend, yerel ağı tarama izni olmadan diğer cihazları bulamaz. Lütfen ayarlardan bu izni verin.';
+  String get description => 'YouSend, yerel ağı tarama izni olmadan diğer cihazları bulamaz. Lütfen ayarlardan bu izni verin.';
   @override
   String get gotoSettings => 'Ayarlar';
 }
@@ -1597,7 +1597,7 @@ class _Translations$dialogs$sendModeHelp$tr extends Translations$dialogs$sendMod
   @override
   String get multiple => 'Dosyaları birden fazla alıcıya gönderir. Aktarım tamamlandıktan sonra seçilen dosyalar listede kalır.';
   @override
-  String get link => 'LocalSend yüklü olmayan kişiler, verilen bağlantıyı tarayıcılarında açarak seçili dosyaları indirebilir.';
+  String get link => 'YouSend yüklü olmayan kişiler, verilen bağlantıyı tarayıcılarında açarak seçili dosyaları indirebilir.';
 }
 
 // Path: dialogs.zoom
