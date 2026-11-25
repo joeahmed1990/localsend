@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Onartu",
     "accepted": "Onartuta",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Itxi: txikitu lehioa",
       "launchAtStartup": "Hasieratze automatikoa",
       "launchMinimized": "Hasieratze automatikoa: hasi txikituta",
-      "showInContextMenu": "Erakutsi LocalSend testuinguru menuan",
+      "showInContextMenu": "Erakutsi YouSend testuinguru menuan",
       "softwareRendering": "Software bidezko errendatzea",
       "softwareRenderingDescription": "Erabili leihoa hutsik geratzen bada, akatsak baditu edo abiaraztean ixten bada. Berrabiarazi ondoren aplikatuko da.",
       "animations": "Animazioak"
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Besteak",
-      "support": "LocalSend Lagundu",
+      "support": "YouSend Lagundu",
       "donate": "Dohaintza egin",
       "privacyPolicy": "Pribatutasun politika",
       "termsOfUse": "Erabilera baldintzak"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Sare interfazeak",
-    "info": "Lehenespenez, LocalSend-ek eskuragarri dauden sare-interfaze guztiak erabiltzen ditu. Nahi ez dituzun sareak hemen baztertu ditzakezu. Zerbitzaria berrabiarazi behar duzu aldaketak aplikatzeko.",
+    "info": "Lehenespenez, YouSend-ek eskuragarri dauden sare-interfaze guztiak erabiltzen ditu. Nahi ez dituzun sareak hemen baztertu ditzakezu. Zerbitzaria berrabiarazi behar duzu aldaketak aplikatzeko.",
     "preview": "Aurrebista",
     "whitelist": "Zerrenda zuria",
     "blacklist": "Zerrenda beltza"
@@ -308,16 +308,16 @@
     "autoAccept": "Onartu eskaerak automatikoki",
     "requirePin": "Eskatu PINa",
     "pinHint": "PINa \"{pin}\" da",
-    "encryptionHint": "LocalSend-ek autosinatutako zertifikatuak erabiltzen ditu. Nabigatzailean onartu behar duzu",
+    "encryptionHint": "YouSend-ek autosinatutako zertifikatuak erabiltzen ditu. Nabigatzailean onartu behar duzu",
     "pendingRequests": "Eskerak: {n}"
   },
   "webReceivePage": {
     "title": "Jaso esteka bidez"
   },
   "aboutPage": {
-    "title": "LocalSend buruz",
+    "title": "YouSend buruz",
     "description": [
-      "LocalSend doako eta kode irekiko aplikazio bat da, gertuko gailuekin fitxategiak eta mezuak modu seguruan partekatzeko aukera ematen dizuna zure sare lokalaren bidez, interneteko konexiorik behar izan gabe.",
+      "YouSend doako eta kode irekiko aplikazio bat da, gertuko gailuekin fitxategiak eta mezuak modu seguruan partekatzeko aukera ematen dizuna zure sare lokalaren bidez, interneteko konexiorik behar izan gabe.",
       "Aplikazio hau Android, iOS, macOS, Windows eta Linux sistemetan dago eskuragarri. Deskarga-aukera guztiak webgune ofizialean aurki ditzakezu."
     ],
     "author": "Egilea",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Egin dohaintza",
-    "info": "LocalSend doakoa da, kode irekikoa eta iragarkirik gabea. Aplikazioa gustuko baduzu, garapena dohaintza batekin lagun dezakezu.",
+    "info": "YouSend doakoa da, kode irekikoa eta iragarkirik gabea. Aplikazioa gustuko baduzu, garapena dohaintza batekin lagun dezakezu.",
     "donate": "Eman {amount}",
     "thanks": "Eskerrik asko!",
     "restore": "Berreskuratu erosketa"
@@ -416,7 +416,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "Sare lokala eskaneatzeko baimenik gabe, LocalSend-ek ezin ditu inguruko gailuak aurkitu. Mesedez, onartu baimen hau ezarpenetan.",
+      "description": "Sare lokala eskaneatzeko baimenik gabe, YouSend-ek ezin ditu inguruko gailuak aurkitu. Mesedez, onartu baimen hau ezarpenetan.",
       "gotoSettings": "Ezarpenak"
     },
     "messageInput": {
@@ -463,7 +463,7 @@
       "title": "Bidalketa moduak",
       "single": "Bidali fitxategiak hartzaile bakar bati. Bidalketa bukatutakoan aukeraketa garbituko da.",
       "multiple": "Bidali fitxategiak hartzaile anitzeri. Aukeraketa ez da garbituko.",
-      "link": "LocalSend instalatuta ez duten hartzaileak fitxategiak eskuratu ahali zango dituzte lotura nabigatzailean zabalduz."
+      "link": "YouSend instalatuta ez duten hartzaileak fitxategiak eskuratu ahali zango dituzte lotura nabigatzailean zabalduz."
     },
     "zoom": {
       "title": "URL"
@@ -476,7 +476,7 @@
   "tray": {
     "@info": "Apple Guidelines are very strict about the 'close' wording.",
     "open": "@:general.open",
-    "close": "Itxi LocalSend",
+    "close": "Itxi YouSend",
     "closeWindows": "Irten"
   },
   "web": {

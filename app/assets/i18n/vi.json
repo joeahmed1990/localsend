@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Đồng ý",
     "accepted": "Đã đồng ý",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Thoát: Ẩn xuống thanh tác vụ",
       "launchAtStartup": "Tự khởi động sau khi đăng nhập",
       "launchMinimized": "Tự khởi động: Khởi động ẩn",
-      "showInContextMenu": "Hiển thị LocalSend ở danh mục",
+      "showInContextMenu": "Hiển thị YouSend ở danh mục",
       "softwareRendering": "Kết xuất bằng phần mềm",
       "softwareRenderingDescription": "Dùng nếu cửa sổ bị trắng, lỗi hiển thị hoặc tự đóng khi khởi động. Có hiệu lực sau khi khởi động lại.",
       "animations": "Hoạt ảnh"
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Khác",
-      "support": "Hỗ trợ LocalSend",
+      "support": "Hỗ trợ YouSend",
       "donate": "Ủng hộ",
       "privacyPolicy": "Chính sách bảo mật",
       "termsOfUse": "Điều khoản sử dụng"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Card mạng",
-    "info": "LocalSend mặc định sử dụng tất cả các giao diện mạng có sẵn. Bạn có thể loại trừ các mạng không mong muốn tại đây. Bạn cần khởi động lại server để áp dụng các thay đổi.",
+    "info": "YouSend mặc định sử dụng tất cả các giao diện mạng có sẵn. Bạn có thể loại trừ các mạng không mong muốn tại đây. Bạn cần khởi động lại server để áp dụng các thay đổi.",
     "preview": "Xem trước",
     "whitelist": "Cho phép",
     "blacklist": "Chặn"
@@ -256,7 +256,7 @@
   "receiveOptionsPage": {
     "title": "Tuỳ chọn",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(Thư mục LocalSend)",
+    "appDirectory": "(Thư mục YouSend)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Đã tự động tắt vì là thư mục."
   },
@@ -308,16 +308,16 @@
     "autoAccept": "Tự động chấp nhận yêu cầu",
     "requirePin": "Cần cung cấp mã PIN",
     "pinHint": "Mã PIN là \"{pin}\"",
-    "encryptionHint": "LocalSend dùng chứng chỉ tự tạo. Bạn cần chấp thuận trong trình duyệt.",
+    "encryptionHint": "YouSend dùng chứng chỉ tự tạo. Bạn cần chấp thuận trong trình duyệt.",
     "pendingRequests": "Yêu cầu chờ: {n}"
   },
   "webReceivePage": {
     "title": "Nhận qua liên kết"
   },
   "aboutPage": {
-    "title": "Thông tin về LocalSend",
+    "title": "Thông tin về YouSend",
     "description": [
-      "LocalSend là một phần mềm miễn phí mã nguồn mở, giúp bạn chia sẻ tập tin cũng như tin nhắn đến các thiết bị phụ cận một cách bảo mật thông qua mạng nội bộ mà không cần kết nối mạng đến bên ngoài.",
+      "YouSend là một phần mềm miễn phí mã nguồn mở, giúp bạn chia sẻ tập tin cũng như tin nhắn đến các thiết bị phụ cận một cách bảo mật thông qua mạng nội bộ mà không cần kết nối mạng đến bên ngoài.",
       "Ứng dụng có trên Android, iOS, macOS, Windows và Linux. Bạn có thể tìm thấy các tuỳ chọn tải ở trang chủ."
     ],
     "author": "Tác giả",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Ủng hộ",
-    "info": "LocalSend là ứng dụng miễn phí, mã nguồn mở, không chứa quảng cáo. Nếu bạn yêu thích ứng dụng này, bạn có thể hỗ trợ việc phát triển bằng việc ủng hộ.",
+    "info": "YouSend là ứng dụng miễn phí, mã nguồn mở, không chứa quảng cáo. Nếu bạn yêu thích ứng dụng này, bạn có thể hỗ trợ việc phát triển bằng việc ủng hộ.",
     "donate": "Ủng hộ {amount}",
     "thanks": "Xin chân thành cảm ơn!",
     "restore": "Khôi phục lịch sử ủng hộ"
@@ -416,7 +416,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "LocalSend không thể tìm kiếm thiết bị khác khi không được phép quét mạng nội bộ. Vui lòng trao quyền cho ứng dụng trong cài đặt.",
+      "description": "YouSend không thể tìm kiếm thiết bị khác khi không được phép quét mạng nội bộ. Vui lòng trao quyền cho ứng dụng trong cài đặt.",
       "gotoSettings": "Cài đặt"
     },
     "messageInput": {
@@ -463,7 +463,7 @@
       "title": "Chế độ gửi",
       "single": "Gửi tập tin tới một người nhận. Lựa chọn sẽ được xoá sau khi quá trình gửi hoàn thành.",
       "multiple": "Gửi tập tin tới nhiều người nhận. Lựa chọn sẽ không bị xoá.",
-      "link": "Người nhận chưa cài đặt LocalSend có thể nhận tập tin bằng cách mở liên kết trong trình duyệt."
+      "link": "Người nhận chưa cài đặt YouSend có thể nhận tập tin bằng cách mở liên kết trong trình duyệt."
     },
     "zoom": {
       "title": "Đường dẫn"
@@ -476,7 +476,7 @@
   "tray": {
     "@info": "Apple Guidelines are very strict about the 'close' wording.",
     "open": "@:general.open",
-    "close": "Đóng LocalSend",
+    "close": "Đóng YouSend",
     "closeWindows": "Thoát"
   },
   "web": {

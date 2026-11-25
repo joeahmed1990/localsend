@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Sprejmi",
     "accepted": "Sprejeto",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Ob zaprtju minimiziraj v sistemski pladenj / meni",
       "launchAtStartup": "Samodejni zagon po prijavi",
       "launchMinimized": "Samodejni zagon: Začni skrito",
-      "showInContextMenu": "Prikaži LocalSend v kontekstnem meniju",
+      "showInContextMenu": "Prikaži YouSend v kontekstnem meniju",
       "softwareRendering": "Programsko upodabljanje",
       "softwareRenderingDescription": "Uporabite, če okno ostane prazno, se napačno prikazuje ali se ob zagonu zapre. Učinkuje po ponovnem zagonu.",
       "animations": "Animacije"
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Drugo",
-      "support": "Podprite LocalSend",
+      "support": "Podprite YouSend",
       "donate": "Donirajte",
       "privacyPolicy": "Politika zasebnosti",
       "termsOfUse": "Pogoji uporabe"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Omrežni vmesniki",
-    "info": "LocalSend privzeto uporablja vse razpoložljive omrežne vmesnike. Tukaj lahko izključite neželena omrežja. Za uveljavitev sprememb morate znova zagnati strežnik.",
+    "info": "YouSend privzeto uporablja vse razpoložljive omrežne vmesnike. Tukaj lahko izključite neželena omrežja. Za uveljavitev sprememb morate znova zagnati strežnik.",
     "preview": "Predogled",
     "whitelist": "Seznam dovoljenih",
     "blacklist": "Seznam blokiranih"
@@ -256,7 +256,7 @@
   "receiveOptionsPage": {
     "title": "Možnosti",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(mapa LocalSend)",
+    "appDirectory": "(mapa YouSend)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Samodejno izklopljeno, ker obstajajo mape."
   },
@@ -308,16 +308,16 @@
     "autoAccept": "Samodejno sprejemaj zahteve",
     "requirePin": "Zahtevaj PIN",
     "pinHint": "PIN je \"{pin}\"",
-    "encryptionHint": "LocalSend uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.",
+    "encryptionHint": "YouSend uporablja samopodpisano potrdilo. Sprejeti ga morate v svojem brskalniku.",
     "pendingRequests": "Čakajoče zahteve: {n}"
   },
   "webReceivePage": {
     "title": "Prejmi prek povezave"
   },
   "aboutPage": {
-    "title": "O LocalSend",
+    "title": "O YouSend",
     "description": [
-      "LocalSend je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi.",
+      "YouSend je brezplačna, odprtokodna aplikacija, ki vam omogoča varno deljenje datotek in sporočil z napravami v bližini prek lokalnega omrežja brez potrebe po internetni povezavi.",
       "Aplikacija je na voljo za Android, iOS, macOS, Windows in Linux. Vse možnosti prenosa lahko najdete na uradni spletni strani."
     ],
     "author": "Avtor",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Doniraj",
-    "info": "LocalSend je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.",
+    "info": "YouSend je brezplačna, odprtokodna in brez oglasov. Če vam je aplikacija všeč, lahko podprete razvoj z donacijo.",
     "donate": "Doniraj {amount}",
     "thanks": "Najlepša hvala!",
     "restore": "Obnovi nakup"
@@ -486,7 +486,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "LocalSend ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.",
+      "description": "YouSend ne more najti drugih naprav brez dovoljenja za iskanje v lokalnem omrežju. Prosim, omogočite to dovoljenje v nastavitvah.",
       "gotoSettings": "Nastavitve"
     },
     "messageInput": {
@@ -533,7 +533,7 @@
       "title": "Načini pošiljanja",
       "single": "Pošlje datoteke enemu prejemniku. Izbira bo po končanem prenosu izbrisana.",
       "multiple": "Pošlje datoteke več prejemnikom. Izbira po končanem prenosu ne bo izbrisana.",
-      "link": "Prejemniki, ki nimajo nameščenega LocalSend, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku."
+      "link": "Prejemniki, ki nimajo nameščenega YouSend, lahko prenesejo izbrane datoteke z odpiranjem povezave v brskalniku."
     },
     "zoom": {
       "title": "URL"
@@ -546,7 +546,7 @@
   "tray": {
     "@info": "Smernice Appla so zelo stroge glede uporabe besede \"zapri\".",
     "open": "@:general.open",
-    "close": "Zapri LocalSend",
+    "close": "Zapri YouSend",
     "closeWindows": "Izhod"
   },
   "web": {

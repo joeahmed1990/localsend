@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Qabul qilish",
     "accepted": "Qabul qilindi",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Yopganda tizim treyi/menyu paneliga kichraytirish",
       "launchAtStartup": "Tizimga kirgandan soʻng avtomatik ishga tushirish",
       "launchMinimized": "Avtomatik ishga tushirish: yashirin holda boshlash",
-      "showInContextMenu": "LocalSendni kontekst menyusida koʻrsatish",
+      "showInContextMenu": "YouSendni kontekst menyusida koʻrsatish",
       "softwareRendering": "Dasturiy renderlash",
       "softwareRenderingDescription": "Oyna boʻsh qolsa, buzilib koʻrinsa yoki ishga tushganda yopilsa, foydalaning. Qayta ishga tushirilgandan soʻng kuchga kiradi.",
       "animations": "Animatsiyalar"
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Boshqa",
-      "support": "LocalSendni qoʻllab-quvvatlash",
+      "support": "YouSendni qoʻllab-quvvatlash",
       "donate": "Xayriya",
       "privacyPolicy": "Maxfiylik siyosati",
       "termsOfUse": "Foydalanish shartlari"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Tarmoq interfeyslari",
-    "info": "Standart holatda LocalSend barcha mavjud tarmoq interfeyslaridan foydalanadi. Bu yerda keraksiz tarmoqlarni chiqarib tashlashingiz mumkin. Oʻzgarishlarni qoʻllash uchun serverni qayta ishga tushirishingiz kerak.",
+    "info": "Standart holatda YouSend barcha mavjud tarmoq interfeyslaridan foydalanadi. Bu yerda keraksiz tarmoqlarni chiqarib tashlashingiz mumkin. Oʻzgarishlarni qoʻllash uchun serverni qayta ishga tushirishingiz kerak.",
     "preview": "Oldindan koʻrish",
     "whitelist": "Ruxsat etilganlar roʻyxati",
     "blacklist": "Taqiqlanganlar roʻyxati"
@@ -256,7 +256,7 @@
   "receiveOptionsPage": {
     "title": "Parametrlar",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(LocalSend papkasi)",
+    "appDirectory": "(YouSend papkasi)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Papkalar mavjud boʻlgani uchun avtomatik oʻchirildi."
   },
@@ -308,16 +308,16 @@
     "autoAccept": "Soʻrovlarni avtomatik qabul qilish",
     "requirePin": "PIN talab qilish",
     "pinHint": "PIN \"{pin}\"",
-    "encryptionHint": "LocalSend oʻz-oʻzini imzolagan sertifikatdan foydalanadi. Uni brauzeringizda qabul qilishingiz kerak.",
+    "encryptionHint": "YouSend oʻz-oʻzini imzolagan sertifikatdan foydalanadi. Uni brauzeringizda qabul qilishingiz kerak.",
     "pendingRequests": "Kutilayotgan soʻrovlar: {n}"
   },
   "webReceivePage": {
     "title": "Havola orqali qabul qilish"
   },
   "aboutPage": {
-    "title": "LocalSend haqida",
+    "title": "YouSend haqida",
     "description": [
-      "LocalSend — bu bepul, ochiq manbali ilova boʻlib, u internet ulanishisiz mahalliy tarmoq orqali yaqin atrofdagi qurilmalar bilan fayllar va xabarlarni xavfsiz ulashish imkonini beradi.",
+      "YouSend — bu bepul, ochiq manbali ilova boʻlib, u internet ulanishisiz mahalliy tarmoq orqali yaqin atrofdagi qurilmalar bilan fayllar va xabarlarni xavfsiz ulashish imkonini beradi.",
       "Ushbu ilova Android, iOS, macOS, Windows va Linuxda mavjud. Barcha yuklab olish variantlarini rasmiy sahifada topishingiz mumkin."
     ],
     "author": "Muallif",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Xayriya",
-    "info": "LocalSend bepul, ochiq manbali va reklamasiz. Agar ilova sizga yoqqan boʻlsa, xayriya bilan rivojlanishni qoʻllab-quvvatlashingiz mumkin.",
+    "info": "YouSend bepul, ochiq manbali va reklamasiz. Agar ilova sizga yoqqan boʻlsa, xayriya bilan rivojlanishni qoʻllab-quvvatlashingiz mumkin.",
     "donate": "{amount} xayriya qilish",
     "thanks": "Katta rahmat!",
     "restore": "Xaridni tiklash"
@@ -413,7 +413,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "LocalSend mahalliy tarmoqni skanerlash ruxsatisiz boshqa qurilmalarni topa olmaydi. Iltimos, ushbu ruxsatni sozlamalarda bering.",
+      "description": "YouSend mahalliy tarmoqni skanerlash ruxsatisiz boshqa qurilmalarni topa olmaydi. Iltimos, ushbu ruxsatni sozlamalarda bering.",
       "gotoSettings": "Sozlamalar"
     },
     "messageInput": {
@@ -460,7 +460,7 @@
       "title": "Yuborish rejimlari",
       "single": "Fayllarni bitta qabul qiluvchiga yuboradi. Fayl uzatish tugagandan soʻng tanlov tozalanadi.",
       "multiple": "Fayllarni bir nechta qabul qiluvchiga yuboradi. Fayl uzatish tugagandan soʻng tanlov tozalanmaydi.",
-      "link": "LocalSend oʻrnatilmagan qabul qiluvchilar havolani brauzerlarida ochish orqali tanlangan fayllarni yuklab olishlari mumkin."
+      "link": "YouSend oʻrnatilmagan qabul qiluvchilar havolani brauzerlarida ochish orqali tanlangan fayllarni yuklab olishlari mumkin."
     },
     "zoom": {
       "title": "URL"
@@ -472,7 +472,7 @@
   },
   "tray": {
     "open": "@:general.open",
-    "close": "LocalSenddan chiqish",
+    "close": "YouSenddan chiqish",
     "closeWindows": "Chiqish"
   },
   "web": {

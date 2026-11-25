@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Kabul Et",
     "accepted": "Kabul Edildi",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Kapatırken sistem tepsisine/menü çubuğuna küçült",
       "launchAtStartup": "Oturum açılışında otomatik başlat",
       "launchMinimized": "Otomatik başlatma: Gizli başlat",
-      "showInContextMenu": "Sağ tık menüsünde LocalSend'i göster",
+      "showInContextMenu": "Sağ tık menüsünde YouSend'i göster",
       "softwareRendering": "Yazılımsal işleme",
       "softwareRenderingDescription": "Pencere boş kalıyor, bozuk görünüyor veya açılışta kapanıyorsa kullanın. Yeniden başlatmadan sonra geçerli olur.",
       "animations": "Animasyonlar"
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Diğer",
-      "support": "LocalSend'i Destekle",
+      "support": "YouSend'i Destekle",
       "donate": "Bağış Yap",
       "privacyPolicy": "Gizlilik Politikası",
       "termsOfUse": "Kullanım Koşulları"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Ağ Arayüzleri",
-    "info": "LocalSend varsayılan olarak kullanılabilir tüm ağ arayüzlerini kullanır. İstemediğiniz ağları buradan hariç tutabilirsiniz. Değişikliklerin geçerli olması için sunucuyu yeniden başlatmanız gerekir.",
+    "info": "YouSend varsayılan olarak kullanılabilir tüm ağ arayüzlerini kullanır. İstemediğiniz ağları buradan hariç tutabilirsiniz. Değişikliklerin geçerli olması için sunucuyu yeniden başlatmanız gerekir.",
     "preview": "Önizleme",
     "whitelist": "Beyaz Liste",
     "blacklist": "Kara Liste"
@@ -256,7 +256,7 @@
   "receiveOptionsPage": {
     "title": "Seçenekler",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(LocalSend klasörü)",
+    "appDirectory": "(YouSend klasörü)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Klasör içerdiği için otomatik olarak kapatıldı."
   },
@@ -308,16 +308,16 @@
     "autoAccept": "İstekleri otomatik kabul et",
     "requirePin": "PIN iste",
     "pinHint": "PIN kodu: \"{pin}\"",
-    "encryptionHint": "LocalSend kendinden imzalı (self-signed) bir sertifika kullanır. Tarayıcınızda bu sertifikayı onaylamanız gerekir.",
+    "encryptionHint": "YouSend kendinden imzalı (self-signed) bir sertifika kullanır. Tarayıcınızda bu sertifikayı onaylamanız gerekir.",
     "pendingRequests": "Bekleyen istekler: {n}"
   },
   "webReceivePage": {
     "title": "Bağlantıyla al"
   },
   "aboutPage": {
-    "title": "LocalSend Hakkında",
+    "title": "YouSend Hakkında",
     "description": [
-      "LocalSend; internet bağlantısına ihtiyaç duymadan, yerel ağınız üzerinden yakındaki cihazlarla güvenli bir şekilde dosya ve mesaj paylaşmanızı sağlayan ücretsiz ve açık kaynaklı bir uygulamadır.",
+      "YouSend; internet bağlantısına ihtiyaç duymadan, yerel ağınız üzerinden yakındaki cihazlarla güvenli bir şekilde dosya ve mesaj paylaşmanızı sağlayan ücretsiz ve açık kaynaklı bir uygulamadır.",
       "Bu uygulama Android, iOS, macOS, Windows ve Linux platformlarında kullanılabilir. Tüm indirme seçeneklerini resmi web sitesinde bulabilirsiniz."
     ],
     "author": "Geliştirici",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Bağış Yap",
-    "info": "LocalSend ücretsiz, açık kaynaklı ve reklamsız bir uygulamadır. Uygulamayı beğendiyseniz geliştirme sürecine bağış yaparak destek olabilirsiniz.",
+    "info": "YouSend ücretsiz, açık kaynaklı ve reklamsız bir uygulamadır. Uygulamayı beğendiyseniz geliştirme sürecine bağış yaparak destek olabilirsiniz.",
     "donate": "{amount} Bağış Yap",
     "thanks": "Çok teşekkür ederiz!",
     "restore": "Satın alımı geri yükle"
@@ -486,7 +486,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "LocalSend, yerel ağı tarama izni olmadan diğer cihazları bulamaz. Lütfen ayarlardan bu izni verin.",
+      "description": "YouSend, yerel ağı tarama izni olmadan diğer cihazları bulamaz. Lütfen ayarlardan bu izni verin.",
       "gotoSettings": "Ayarlar"
     },
     "messageInput": {
@@ -533,7 +533,7 @@
       "title": "Gönderim modları",
       "single": "Dosyaları tek bir alıcıya gönderir. Aktarım tamamlandıktan sonra seçilen dosyalar temizlenir.",
       "multiple": "Dosyaları birden fazla alıcıya gönderir. Aktarım tamamlandıktan sonra seçilen dosyalar listede kalır.",
-      "link": "LocalSend yüklü olmayan kişiler, verilen bağlantıyı tarayıcılarında açarak seçili dosyaları indirebilir."
+      "link": "YouSend yüklü olmayan kişiler, verilen bağlantıyı tarayıcılarında açarak seçili dosyaları indirebilir."
     },
     "zoom": {
       "title": "URL"
@@ -546,7 +546,7 @@
   "tray": {
     "@info": "Apple Guidelines are very strict about the \"close\" wording.",
     "open": "@:general.open",
-    "close": "LocalSend'den Çık",
+    "close": "YouSend'den Çık",
     "closeWindows": "Çıkış"
   },
   "web": {

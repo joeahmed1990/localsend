@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Hyväksy",
     "accepted": "Hyväksytty",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Poistu: Minimoi ilmoitusalueelle",
       "launchAtStartup": "Automaattinen käynnistys",
       "launchMinimized": "Automaattinen käynnistys: Käynnistä piiilotettuna",
-      "showInContextMenu": "Näytä LocalSend kontekstivalikossa",
+      "showInContextMenu": "Näytä YouSend kontekstivalikossa",
       "softwareRendering": "Ohjelmistorenderöinti",
       "softwareRenderingDescription": "Käytä, jos ikkuna jää tyhjäksi, välkkyy tai sulkeutuu käynnistyksessä. Tulee voimaan uudelleenkäynnistyksen jälkeen.",
       "animations": "Animaatiot"
@@ -135,7 +135,7 @@
     },
     "network": {
       "title": "Verkko",
-      "needRestart": "Käynnistä LocalSend uudelleen saadaksesi muutokset käyttöön!",
+      "needRestart": "Käynnistä YouSend uudelleen saadaksesi muutokset käyttöön!",
       "server": "Palvelin",
       "alias": "Laitteen nimi",
       "deviceType": "Laitteen tyyppi",
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Muut",
-      "support": "Tue LocalSendia",
+      "support": "Tue YouSendia",
       "donate": "Lahjoita",
       "privacyPolicy": "Tietosuojakäytäntö",
       "termsOfUse": "Käyttöehdot"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Verkkokäyttöliittymät",
-    "info": "Oletuksena LocalSend käyttää kaikkia saatavilla olevia verkkoliitäntöjä. Voit sulkea pois verkkoliitännät, joita et halua. Sinun tulee uudelleenkäynnistää LocalSend ottaaksesi muutokset käyttöön.",
+    "info": "Oletuksena YouSend käyttää kaikkia saatavilla olevia verkkoliitäntöjä. Voit sulkea pois verkkoliitännät, joita et halua. Sinun tulee uudelleenkäynnistää YouSend ottaaksesi muutokset käyttöön.",
     "preview": "Esikatselu",
     "whitelist": "Sallittujen lista",
     "blacklist": "Estettyjen lista"
@@ -256,7 +256,7 @@
   "receiveOptionsPage": {
     "title": "Asetukset",
     "destination": "Vastaanottoasetukset",
-    "appDirectory": "(LocalSend-kansio)",
+    "appDirectory": "(YouSend-kansio)",
     "saveToGallery": "Tallenna galleriaan",
     "saveToGalleryOff": "Poistettu käytöstä automaattisesti, koska lähetetyissä tiedostoissa on kansioita."
   },
@@ -308,17 +308,17 @@
     "autoAccept": "Hyväksy pyynnöt automaattisesti",
     "requirePin": "Vaadi PIN-koodi",
     "pinHint": "PIN-koodi on \"{pin}\"",
-    "encryptionHint": "LocalSend käyttää itse allekirjoitettua sertifikaattia. Sinun on hyväksyttävä se selaimessasi.",
+    "encryptionHint": "YouSend käyttää itse allekirjoitettua sertifikaattia. Sinun on hyväksyttävä se selaimessasi.",
     "pendingRequests": "Odottavat pyynnöt: {n}"
   },
   "webReceivePage": {
     "title": "Vastaanota linkin kautta"
   },
   "aboutPage": {
-    "title": "Tietoja LocalSendista",
+    "title": "Tietoja YouSendista",
     "description": [
-      "LocalSend on ilmainen, avoimen lähdekoodin sovellus, jonka avulla voit turvallisesti jakaa tiedostoja ja lähettää viestejä läheisten laitteiden kanssa paikallisessa verkossasi ilman internet-yhteyttä.",
-      "LocalSend on saatavilla Androidille, iOS:lle, Linuxille, macOS:lle ja Windowsille. Kaikki latausvaihtoehdot löytyvät virallisilta kotisivuilta."
+      "YouSend on ilmainen, avoimen lähdekoodin sovellus, jonka avulla voit turvallisesti jakaa tiedostoja ja lähettää viestejä läheisten laitteiden kanssa paikallisessa verkossasi ilman internet-yhteyttä.",
+      "YouSend on saatavilla Androidille, iOS:lle, Linuxille, macOS:lle ja Windowsille. Kaikki latausvaihtoehdot löytyvät virallisilta kotisivuilta."
     ],
     "author": "Tekijä",
     "contributors": "Avustajat",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Lahjoita",
-    "info": "LocalSend on ilmainen, avoimen lähdekoodin sovellus ilman mainoksia. Voit tukea projektia lahjoituksella, jos pidät sovelluksesta.",
+    "info": "YouSend on ilmainen, avoimen lähdekoodin sovellus ilman mainoksia. Voit tukea projektia lahjoituksella, jos pidät sovelluksesta.",
     "donate": "Lahjoita {amount}",
     "thanks": "Suuret kiitokset!",
     "restore": "Palauta ostos"
@@ -493,7 +493,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "LocalSend ei löydä muita laitteita ilman lupaa skannata paikallisverkkoa. Anna tämä lupa asetuksissa.",
+      "description": "YouSend ei löydä muita laitteita ilman lupaa skannata paikallisverkkoa. Anna tämä lupa asetuksissa.",
       "gotoSettings": "Asetukset"
     },
     "messageInput": {
@@ -540,7 +540,7 @@
       "title": "Lähetystilat",
       "single": "Lähettää tiedostoja yhdelle vastaanottajalle. Valinta tyhjennetään tiedostonsiirron päätyttyä.",
       "multiple": "Lähettää tiedostoja useille vastaanottajille. Valinta ei tyhjene.",
-      "link": "Vastaanottajat, joilla ei ole LocalSendia asennettuna, voivat ladata valitut tiedostot avaamalla linkin selaimessaan."
+      "link": "Vastaanottajat, joilla ei ole YouSendia asennettuna, voivat ladata valitut tiedostot avaamalla linkin selaimessaan."
     },
     "zoom": {
       "title": "URL"
@@ -553,7 +553,7 @@
   "tray": {
     "@info": "Applen ohjeistukset ovat hyvin tiukat 'sulje'-sanan käytöstä.",
     "open": "Avaa",
-    "close": "Lopeta LocalSend",
+    "close": "Lopeta YouSend",
     "closeWindows": "Poistu"
   },
   "web": {

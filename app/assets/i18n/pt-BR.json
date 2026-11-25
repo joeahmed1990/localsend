@@ -1,5 +1,5 @@
 {
-  "appName": "LocalSend",
+  "appName": "YouSend",
   "general": {
     "accept": "Aceitar",
     "accepted": "Aceito",
@@ -111,7 +111,7 @@
       "minimizeToTray": "Minimizar para a bandeja ao fechar",
       "launchAtStartup": "Abrir junto com o usuário",
       "launchMinimized": "Início automático: Abrir minimizado",
-      "showInContextMenu": "Mostrar LocalSend no menu de contexto",
+      "showInContextMenu": "Mostrar YouSend no menu de contexto",
       "softwareRendering": "Renderização por software",
       "softwareRenderingDescription": "Use se a janela ficar em branco, apresentar falhas ou fechar ao iniciar. Entra em vigor após reiniciar.",
       "animations": "Animações"
@@ -156,7 +156,7 @@
     },
     "other": {
       "title": "Outras",
-      "support": "Apoiar o LocalSend",
+      "support": "Apoiar o YouSend",
       "donate": "Doar",
       "privacyPolicy": "Política de privacidade",
       "termsOfUse": "Termos de uso"
@@ -184,7 +184,7 @@
   },
   "networkInterfacesPage": {
     "title": "Interfaces de rede",
-    "info": "Por padrão, o LocalSend utiliza todas as interfaces de rede disponíveis. Você pode excluir as redes indesejadas aqui. É necessário reiniciar o servidor para aplicar as alterações.",
+    "info": "Por padrão, o YouSend utiliza todas as interfaces de rede disponíveis. Você pode excluir as redes indesejadas aqui. É necessário reiniciar o servidor para aplicar as alterações.",
     "preview": "Pré-visualização",
     "whitelist": "Lista de permissão",
     "blacklist": "Lista de bloqueio"
@@ -256,7 +256,7 @@
   "receiveOptionsPage": {
     "title": "Opções",
     "destination": "@:settingsTab.receive.destination",
-    "appDirectory": "(pasta do LocalSend)",
+    "appDirectory": "(pasta do YouSend)",
     "saveToGallery": "@:settingsTab.receive.saveToGallery",
     "saveToGalleryOff": "Desativada automaticamente pois há pastas."
   },
@@ -308,16 +308,16 @@
     "autoAccept": "Aceitar solicitações automaticamente",
     "requirePin": "Solicitar PIN",
     "pinHint": "O PIN é \"{pin}\"",
-    "encryptionHint": "O LocalSend utiliza um certificado autoassinado. Você precisa aceitá-lo no seu navegador.",
+    "encryptionHint": "O YouSend utiliza um certificado autoassinado. Você precisa aceitá-lo no seu navegador.",
     "pendingRequests": "Solicitações pendentes: {n}"
   },
   "webReceivePage": {
     "title": "Receber via link"
   },
   "aboutPage": {
-    "title": "Sobre o LocalSend",
+    "title": "Sobre o YouSend",
     "description": [
-      "O LocalSend é um aplicativo gratuito, de código aberto, que permite compartilhar arquivos e mensagens com dispositivos próximos através da sua rede local, sem a necessidade de uma conexão à internet.",
+      "O YouSend é um aplicativo gratuito, de código aberto, que permite compartilhar arquivos e mensagens com dispositivos próximos através da sua rede local, sem a necessidade de uma conexão à internet.",
       "Este aplicativo está disponível para Android, iOS, macOS, Windows e Linux. Você pode encontrar todas as opções de download na página oficial."
     ],
     "author": "Autor",
@@ -327,7 +327,7 @@
   },
   "donationPage": {
     "title": "Doe",
-    "info": "O LocalSend é gratuito, de código aberto e não tem anúncios. Se tu curte o app, então pense em apoiar o desenvolvimento com uma doação.",
+    "info": "O YouSend é gratuito, de código aberto e não tem anúncios. Se tu curte o app, então pense em apoiar o desenvolvimento com uma doação.",
     "donate": "Doar {amount}",
     "thanks": "Muito obrigado!",
     "restore": "Restaurar compra"
@@ -476,7 +476,7 @@
     },
     "localNetworkUnauthorized": {
       "title": "@:dialogs.noPermission.title",
-      "description": "O LocalSend não consegue encontrar outros dispositivos sem ter a permissão para escanear a rede local. Conceda esta permissão nas configurações.",
+      "description": "O YouSend não consegue encontrar outros dispositivos sem ter a permissão para escanear a rede local. Conceda esta permissão nas configurações.",
       "gotoSettings": "Configurações"
     },
     "messageInput": {
@@ -523,7 +523,7 @@
       "title": "Modos de envio",
       "single": "Envia arquivos para um destinatário. A seleção será apagada após a conclusão da transferência dos arquivos.",
       "multiple": "Envia arquivos para vários destinatários. A seleção não será apagada.",
-      "link": "Os destinatários que não têm o LocalSend instalado podem baixar os arquivos selecionados abrindo o link fornecido no navegador."
+      "link": "Os destinatários que não têm o YouSend instalado podem baixar os arquivos selecionados abrindo o link fornecido no navegador."
     },
     "zoom": {
       "title": "URL"
@@ -536,7 +536,7 @@
   "tray": {
     "@info": "As diretrizes da Apple são extremamente restritas sobre a nomenclatura do \"fechar\".",
     "open": "@:general.open",
-    "close": "Sair do LocalSend",
+    "close": "Sair do YouSend",
     "closeWindows": "Sair"
   },
   "web": {
