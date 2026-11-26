@@ -124,7 +124,7 @@ Filename: "powershell.exe"; Parameters: "-ExecutionPolicy Bypass -Command Get-Ap
 [Code]
 const
   RunKey = 'Software\Microsoft\Windows\CurrentVersion\Run';
-  RunValue = 'LocalSend';
+  RunValue = 'YouSend';
 
 function IsAppExe(Path: String): Boolean;
 begin
