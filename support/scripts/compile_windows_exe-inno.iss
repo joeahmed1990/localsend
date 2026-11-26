@@ -15,7 +15,7 @@
 #define MyAppVersion "1.19.0"
 #define MyAppPublisher "Tien Do Nam"
 #define MyAppURL "https://localsend.org"
-#define MyAppExeName "localsend_app.exe"
+#define MyAppExeName "yousend.exe"
 #define MyAppMsixHelper "localsend_msix_helper.msix"
 
 [Setup]
@@ -131,7 +131,7 @@ begin
   Result := CompareText(Path, ExpandConstant('{app}\{#MyAppExeName}')) = 0;
 end;
 
-// The exe of a command line like "C:\Program Files\LocalSend\localsend_app.exe" --hidden
+// The exe of a command line like "C:\Program Files\LocalSend\yousend.exe" --hidden
 function CommandExe(Command: String): String;
 var
   P: Integer;
