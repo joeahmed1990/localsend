@@ -11,9 +11,9 @@
   #define ResultDir "D:\inno-result"
 #endif
 
-#define MyAppName "LocalSend"
+#define MyAppName "YouSend"
 #define MyAppVersion "1.19.0"
-#define MyAppPublisher "Tien Do Nam"
+#define MyAppPublisher "Youssef"
 #define MyAppURL "https://localsend.org"
 #define MyAppExeName "yousend.exe"
 #define MyAppMsixHelper "localsend_msix_helper.msix"
@@ -21,7 +21,7 @@
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{00809252-FEC6-448E-83B4-E7F55AE7E47D}
+AppId={{e68a212b-b9bb-43c0-b3a3-15919dcbae2c}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -35,9 +35,9 @@ DisableProgramGroupPage=yes
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir={#ResultDir}
-OutputBaseFilename=localsend
-SetupIconFile={#PayloadDir}\logo.ico
-UninstallDisplayIcon={app}\{#MyAppExeName}
+OutputBaseFilename=YouSend-setup
+SetupIconFile=..\..\app\windows\runner\resources\app_icon.ico
+UninstallDisplayIcon={app}\yousend.exe
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -110,7 +110,7 @@ Filename: "powershell.exe"; Parameters: "-ExecutionPolicy Bypass -Command Add-Ap
 [UninstallRun]
 ; [UninstallRun] runs before any file is removed. LocalSend may still be running (e.g. hidden in the tray after autostart),
 ; which would keep its exe and DLLs in use. Terminate the instances started from this installation, also those of other users.
-Filename: "powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -Command ""$exe = Join-Path $PWD.Path '{#MyAppExeName}'; Get-Process localsend_app -ErrorAction SilentlyContinue | Where-Object Path -eq $exe | ForEach-Object {{ $_.Kill(); $_.WaitForExit(10000) }"""; WorkingDir: {app}; Flags: runhidden waituntilterminated; RunOnceId: "CloseApp"
+Filename: "powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -Command ""$exe = Join-Path $PWD.Path '{#MyAppExeName}'; Get-Process yousend -ErrorAction SilentlyContinue | Where-Object Path -eq $exe | ForEach-Object {{ $_.Kill(); $_.WaitForExit(10000) }"""; WorkingDir: {app}; Flags: runhidden waituntilterminated; RunOnceId: "CloseApp"
 ; The app itself, not this installer, creates the "Send to" shortcut on its first start (context_menu_helper.dart). Remove it if it
 ; starts this installation. This runs in 64-bit PowerShell because a 32-bit process, like the uninstaller, reads a shortcut
 ; into C:\Program Files as C:\Program Files (x86).
